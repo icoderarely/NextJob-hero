@@ -23,15 +23,19 @@ a {
 
 .header {
     justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 24px;
 }
 
 .h-left {
     gap: 48px;
+    align-items: center;
 }
 
 .logo {
     font-weight: 600;
     font-size: 24px;
+    color: #6A1E55;
 }
 
 .nav-links ul {
@@ -40,4 +44,15 @@ a {
 
 .h-right {
     gap: 24px;
+    align-items: center;
+}
+
+.post {
+    color: #A64D79;
+}
+
+.btn {
+    color: #A64D79;
+    border: 2px solid #A64D79;
+    padding: 8px 14px;
 }
