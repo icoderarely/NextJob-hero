@@ -71,11 +71,26 @@ a {
 .hero-left-img img,
 .hero-right-img img {
     height: 100px;
+    position: absolute;
+}
+
+.hero-left-img img {
+    top: 30%;
+    left: 15%;
+    filter: invert(30%) sepia(10%) saturate(2800%) hue-rotate(260deg) brightness(110%) contrast(100%);
+}
+
+.hero-right-img img {
+    top: 25%;
+    right: 10%;
+    filter: invert(30%) sepia(10%) saturate(2800%) hue-rotate(260deg) brightness(110%) contrast(100%);
+    opacity: 25%;
 }
 
 .hero-content {
     flex-direction: column;
     align-items: center;
+    margin-top: 72px;
 }
 
 .hero-content h1 {
@@ -94,8 +109,9 @@ select {
 }
 
 .search-box {
-    width: 650px;
+    /* width: 650px; */
     /* background-color: #A64D79; */
+    /* align-items: center; */
     border: 2px solid #11111110;
     box-shadow: 0 0 10px #11111120;
     padding: 24px 36px;
@@ -112,6 +128,15 @@ select {
 
 .select {
     gap: 12px;
+    border-right: 2px solid #e5e7eb;
+    /* padding-right: 10px; */
+    margin-right: 30px;
+}
+
+.select select {
+    appearance: auto;
+    min-width: 170px;
+    margin-right: 12px;
 }
 
 .select-grp button {
@@ -146,7 +171,7 @@ select {
     /* justify-content: space-evenly; */
     gap: 60px;
     justify-content: center;
-    margin-top: 124px;
+    margin-top: 100px;
 }
 
 .logo-list img {
