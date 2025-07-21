@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Chillax", sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    justify-content: space-around;
+}
+
+.h-left {
+    gap: 48px;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.nav-links ul {
+    gap: 24px;
+}
+
+.h-right {
+    gap: 24px;
+}
