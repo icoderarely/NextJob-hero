@@ -5,6 +5,10 @@ A modern, clean, and responsive **Job Finder landing page** built using only **H
 
 Designed to highlight job search functionality with a polished UI — inspired by real-world job platforms.
 
+## 📸 Screenshot
+
+![Job Finder Screenshot](./assets/screenshot.jpg)
+
 ## ✨ Features
 
 - Hero section with headline and search filters
@@ -14,10 +18,6 @@ Designed to highlight job search functionality with a polished UI — inspired b
 - Trusted companies logo strip
 - Fully responsive layout
 - Pure HTML and CSS — no frameworks used
-
-## 📸 Screenshot
-
-![Job Finder Screenshot](./assets/screenshot.jpg)
 
 ## 🚀 How to Use
 
