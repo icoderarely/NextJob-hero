@@ -12,6 +12,11 @@ body {
     display: flex;
 }
 
+.flex-c {
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
     list-style: none;
 }
@@ -55,4 +60,95 @@ a {
     color: #A64D79;
     border: 2px solid #A64D79;
     padding: 8px 14px;
+}
+
+.btn:hover {
+    background-color: #A64D79EE;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-left-img img,
+.hero-right-img img {
+    height: 100px;
+}
+
+.hero-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 4rem;
+    margin-bottom: 54px;
+}
+
+.hero-content h1 span {
+    color: #A64D79;
+}
+
+select {
+    all: unset;
+}
+
+.search-box {
+    width: 650px;
+    /* background-color: #A64D79; */
+    border: 2px solid #11111110;
+    box-shadow: 0 0 10px #11111120;
+    padding: 24px 36px;
+}
+
+.select-grp {
+    justify-content: space-between;
+    /* gap: 180px; */
+}
+
+.select-grp label {
+    font-weight: 600;
+}
+
+.select {
+    gap: 12px;
+}
+
+.select-grp button {
+    all: unset;
+    background-color: #A64D79;
+    color: white;
+    /* border: 2px solid #A64D79; */
+    padding: 8px 28px;
+    border-radius: 4px;
+}
+
+.select-grp button:hover {
+    background-color: #A64D79f0;
+    cursor: pointer;
+}
+
+.popular-roles {
+    gap: 12px;
+    margin-top: 36px;
+    font-size: 14px;
+}
+
+.tags a {
+    background-color: #80808022;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 11px;
+    color: #909090;
+}
+
+.logo-list {
+    /* justify-content: space-evenly; */
+    gap: 60px;
+    justify-content: center;
+    margin-top: 124px;
+}
+
+.logo-list img {
+    height: 30px;
 }

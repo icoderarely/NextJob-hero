@@ -6,7 +6,7 @@
         <title>NextJob</title>
         <link href="style.css" rel="stylesheet" />
         <link
-            href="https://api.fontshare.com/v2/css?f[]=chillax@400,600,700&display=swap"
+            href="https://api.fontshare.com/v2/css?f[]=author@400,600,700&display=swap"
             rel="stylesheet"
         />
     </head>
@@ -24,9 +24,62 @@
                 </div>
             </div>
             <div class="h-right flex">
-                <div class="post">Post a Job</div>
+                <a href="#" class="post">Post a Job</a>
                 <div class="btn">Register</div>
             </div>
+        </div>
+
+        <section class="hero-section">
+            <div class="hero-left-img">
+                <img src="assets/arrow.png" alt="Left Decorative" />
+            </div>
+
+            <div class="hero-right-img">
+                <img src="assets/bullseye.svg" alt="Right Decorative" />
+            </div>
+
+            <div class="hero-content flex">
+                <h1 class="hero-heading">
+                    Make A Difference In The World<br />
+                    With Your <span class="highlight">Next Job</span>
+                </h1>
+
+                <div class="search-box">
+                    <div class="select-grp flex">
+                        <div class="select location flex-c">
+                            <label for="location">Location</label>
+                            <select name="location" id="location">
+                                <option selected disabled>Select</option>
+                            </select>
+                        </div>
+                        <div class="select job-title flex-c">
+                            <label for="job-title">Job Title</label>
+                            <select name="job-title" id="job-title">
+                                <option selected disabled>Select</option>
+                            </select>
+                        </div>
+                        <button type="submit">Search</button>
+                    </div>
+                </div>
+                <div class="popular-roles flex">
+                    <span class="popular-label">Popular:</span>
+                    <div class="tags">
+                        <a href="#">Frontend Developer</a>
+                        <a href="#">UI Designer</a>
+                        <a href="#">Product Designer</a>
+                        <a href="#">WordPress Developer</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="companies">
+            <ul class="logo-list flex">
+                <li><img src="assets/hotjar-2.svg" alt="Hotjar" /></li>
+                <li><img src="assets/slack-2.svg" alt="Slack" /></li>
+                <li><img src="assets/hubspot.svg" alt="HubSpot" /></li>
+                <li><img src="assets/treehouse-2.svg" alt="Treehouse" /></li>
+                <li><img src="assets/trustpilot-1.svg" alt="TrustPilot" /></li>
+            </ul>
         </div>
     </body>
 </html>
